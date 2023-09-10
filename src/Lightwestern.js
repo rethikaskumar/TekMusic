@@ -37,7 +37,7 @@ function Lightwestern() {
                                 <div className="maincontent3"><font>Shiva +91-9487333689</font></div>
                                 <div className="maincontent3"><font>Vasundhara +91-6380491586</font></div>
                                 </Card.Text>
-                                <a href="" target="__blank" className='fontjoin'>
+                                <a href="https://forms.gle/ZvzDGJgw8nXAfeju7" target="__blank" className='fontjoin'>
                                     <button className="button text-bt-2">Register for Light Vocals</button>
                                 </a>
                             </Card.Body >
@@ -52,7 +52,7 @@ function Lightwestern() {
                                     <div className="maincontent3"><font>Shruthi +91-9003137068</font></div>
                                     <div className="maincontent3"><font>Thanushri +91-9980599514</font></div>        
                                 </Card.Text>
-                                <a href="" target="__blank" className='fontjoin'>
+                                <a href="https://forms.gle/fFgquev5dB3DvyP78" target="__blank" className='fontjoin'>
                                     <button className="button text-bt-2">Register for Western Vocals</button>
                                 </a>
                             </Card.Body >
@@ -70,7 +70,7 @@ function Lightwestern() {
                                     <div className="maincontent3"><font>For queries, Contact: </font></div>
                                     <div className="maincontent3"><font>Gaurav +91-9677396783</font></div>
                                 </Card.Text>
-                                <a href="" target="__blank" className='fontjoin'>
+                                <a href="https://forms.gle/csCWDLS3fyXpYxDV7" target="__blank" className='fontjoin'>
                                     <button className="button text-bt-2">Register for Rap</button>
                                 </a>
                             </Card.Body >
@@ -84,7 +84,7 @@ function Lightwestern() {
                                     <div className="maincontent3"><font>For queries, Contact: </font></div>
                                     <div className="maincontent3"><font>Shiva +91-9487333689</font></div>
                                 </Card.Text>
-                                <a href="" target="__blank" className='fontjoin'>
+                                <a href="https://forms.gle/oDsk3T13DW1f1D879" target="__blank" className='fontjoin'>
                                     <button className="button text-bt-2">Register for Flute</button>
                                 </a>
                             </Card.Body >
@@ -103,7 +103,7 @@ function Lightwestern() {
                                     <div className="maincontent3"><font>Saran +91-7010581741</font></div>
                                     <div className="maincontent3"><font>Balavignesh +91-6374520598</font></div>
                                 </Card.Text>
-                                <a href="" target="__blank" className='fontjoin'>
+                                <a href="https://forms.gle/M3WmPVhujDtdWeYVA" target="__blank" className='fontjoin'>
                                     <button className="button text-bt-2">Register for Keyboard</button>
                                 </a>
                             </Card.Body >
@@ -118,7 +118,7 @@ function Lightwestern() {
                                     <div className="maincontent3"><font>Sai Karthik +91-9868112971</font></div>
                                     <div className="maincontent3"><font>Amruth +91-9488200354</font></div>
                                 </Card.Text>
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLpW2Xgya3AvIn4oTBpTTASucBHkPXsEjMW_fzIIBZ1jByRQ/viewform?usp=sf_link" target="__blank" className='fontjoin'>
+                                <a href="https://forms.gle/QMtK9SmtXAQxd4Yu8" target="__blank" className='fontjoin'>
                                     <button className="button text-bt-2">Register for Guitar</button>
                                 </a>
                             </Card.Body >
@@ -136,7 +136,7 @@ function Lightwestern() {
                                     <div className="maincontent3"><font>For queries, Contact: </font></div>
                                     <div className="maincontent3"><font>Vishal +91-6360530676</font></div>
                                 </Card.Text>
-                                <a href="" target="__blank" className='fontjoin'>
+                                <a href="https://forms.gle/z95pBB62kBJYun678" target="__blank" className='fontjoin'>
                                     <button className="button text-bt-2">Register for Violin</button>
                                 </a>
                             </Card.Body >
@@ -151,8 +151,41 @@ function Lightwestern() {
                                     <div className="maincontent3"><font>Vijhay +91-6379276849</font></div>
                                     <div className="maincontent3"><font>Athish +91-8903428797</font></div>
                                 </Card.Text>
-                                <a href="" target="__blank" className='fontjoin'>
+                                <a href="https://forms.gle/cTQhCd4mwUZfw98p8" target="__blank" className='fontjoin'>
                                     <button className="button text-bt-2">Register for Drums</button>
+                                </a>
+                            </Card.Body >
+                        </Card>
+                    </Col>
+                </Row>
+            </div>
+            <div className="bgslider4">
+                <Row xs={1} md={2} className="g-4">
+                    <Col>
+                        <Card border="light" style={{background: 'none', borderRadius: '25px'}}>
+                            <Card.Body>
+                                <Card.Title><div className="maincontent3t">Beatboxing</div></Card.Title>
+                                <Card.Text>
+                                <div className="maincontent3"><font>For queries, Contact: </font></div>
+                                <div className="maincontent3"><font>Shiva +91-9487333689</font></div>
+                                </Card.Text>
+                                <a href="https://forms.gle/pu9CWVEdwX9zBNrA9" target="__blank" className='fontjoin'>
+                                    <button className="button text-bt-2">Register for Beatboxing</button>
+                                </a>
+                            </Card.Body >
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card border="light" style={{background: 'none', borderRadius: '25px'}}>
+                            <Card.Body>
+                                <Card.Title><div className="maincontent3t">Other Instruments</div></Card.Title>
+                                <Card.Text>
+                                    <div className="maincontent3"><font>For queries, Contact: </font></div>
+                                    <div className="maincontent3"><font>Sai Karthik +91-9868112971</font></div>
+                                    <div className="maincontent3"><font>Saran +91-7010581741</font></div>        
+                                </Card.Text>
+                                <a href="https://forms.gle/7fMcCA46LwmNn8zv8" target="__blank" className='fontjoin'>
+                                    <button className="button text-bt-2">Register for Other Instruments</button>
                                 </a>
                             </Card.Body >
                         </Card>

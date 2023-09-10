@@ -36,7 +36,7 @@ function Media() {
                                     <div className="maincontent3"><font>For queries, Contact: </font></div>         
                                     <div className="maincontent3"><font>Tharun +91-9380205535</font></div>
                                     <div className="maincontent3"><font>Sneha +91-8778569766</font></div></Card.Text>
-                                <a href="" target="__blank" className='fontjoin'>
+                                <a href="https://forms.gle/SeRvBY6cH1CumEZFA" target="__blank" className='fontjoin'>
                                     <button className="button text-bt-2">Register for Media</button>
                                 </a>
                             </Card.Body >
