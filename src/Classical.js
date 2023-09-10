@@ -48,9 +48,7 @@ function Classical() {
                                 <Card.Title><div className="maincontent3t">Percussion</div></Card.Title>
                                 <Card.Text>
                                     <div className="maincontent3"><font>For queries, Contact: </font></div>
-                                    <div className="maincontent3"><font>Amruth +91-9488200354</font></div>
-                                    <div className="maincontent3"><font>Amrith +91-9380787181</font></div>        
-                                    <div className="maincontent3"><font>Vijay +91-6383037615</font></div>        
+                                    <div className="maincontent3"><font>Amruth +91-9488200354</font></div>      
                                 </Card.Text>
                                 <a href="" target="__blank" className='fontjoin'>
                                     <button className="button text-bt-2">Register for Percussion</button>
@@ -68,7 +66,6 @@ function Classical() {
                                 <Card.Title><div className="maincontent3t">Violin</div></Card.Title>
                                 <Card.Text>
                                     <div className="maincontent3"><font>For queries, Contact: </font></div>
-                                    <div className="maincontent3"><font>Gayathiri +91-9944927132</font></div>
                                     <div className="maincontent3"><font>Vishal +91-6360530676</font></div>
                                 </Card.Text>
                                 <a href="" target="__blank" className='fontjoin'>
@@ -83,8 +80,7 @@ function Classical() {
                                 <Card.Title><div className="maincontent3t">Veena</div></Card.Title>
                                 <Card.Text>
                                     <div className="maincontent3"><font>For queries, Contact: </font></div>
-                                    <div className="maincontent3"><font>Keerthana +91-9150222855</font></div>
-                                    <div className="maincontent3"><font>Shree Nithi +91-6385293079</font></div>
+                                    <div className="maincontent3"><font>Rethika +91-9790196953</font></div>
                                 </Card.Text>
                                 <a href="" target="__blank" className='fontjoin'>
                                     <button className="button text-bt-2">Register for Veena</button>
@@ -118,8 +114,8 @@ function Classical() {
         </div>
         <div className="bgslider2" style={{marginTop: '1rem'}}>
             <div className="maincontent3t"><font>For any other queries, contact:</font></div>
-            <div className="maincontent3"><font>Lingeshwaran +91-6383880614</font></div>
-            <div className="maincontent3"><font>Gayathiri +91-9944927132</font></div>
+            <div className="maincontent3"><font>Tharun +91-9380205535</font></div>
+            <div className="maincontent3"><font>Sneha +91-8778569766</font></div>
         </div>
         <div className="bgslider2" style={{marginTop: '4rem'}} />
     </div>

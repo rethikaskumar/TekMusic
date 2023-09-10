@@ -68,8 +68,8 @@ function Mixing() {
         </div>
         <div className="bgslider2" style={{marginTop: '1rem'}}>
             <div className="maincontent3"><font>For any other queries, contact:</font></div>
-            <div className="maincontent3"><font>Lingeshwaran +91-6383880614</font></div>
-            <div className="maincontent3"><font>Gayathiri +91-9944927132</font></div>
+            <div className="maincontent3"><font>Tharun +91-9380205535</font></div>
+              <div className="maincontent3"><font>Sneha +91-8778569766</font></div>
         </div>
         <div className="bgslider2" style={{marginTop: '4rem'}} />
     </div>
