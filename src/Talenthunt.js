@@ -79,6 +79,11 @@ class Talenthunt extends React.Component {
                   Mixing Wing
                 </button>
               </Link>
+              <Link to="/Talenthunt/otherInstruments" className='fontjoin'>
+                <button className="button text-bt-2">
+                  Other Instruments
+                </button>
+              </Link>
             </div>
           </div>
           <div className="bgslider2" style={{marginTop: '1rem'}}>

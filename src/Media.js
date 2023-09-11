@@ -24,7 +24,11 @@ function Media() {
                 <div className="maincontent3"><font><li>All years are open to apply for the auditions.</li></font></div>
                 <div className="maincontent3"><font><li>It will be purely based on the skills of the applicant in the respective category.</li></font></div>
                 <div className="maincontent3"><font><li>Keep in mind that a well recorded video/audio will be easier to judge.</li></font></div>
-                <div className="maincontent3"><font><li>While uploading the audition clip, please make sure that you name the file you’re uploading in the specified format to avoid confusion “RollNumber_Category” (for eg: 22XX40_Keyboard)</li></font></div>
+                <div className="maincontent3"><font><li>Send us your portfolios! Your portfolio must include a brief summary of your past work and a concise list of skills you think you are adept at, with reference to building a social media presence for us.</li></font></div>
+                <div className="maincontent3"><font><li>You can upload up to 5 files each of size 100 MB.</li></font></div>
+                <div className="maincontent3"><font><li>Check out all the sub-verticals within this vertical and make sure you contribute appropriately to this wing!</li></font></div>
+                <div className="maincontent3"><font><li>If you wish to share more files, upload them to a google drive and share the drive with editor access to whoever has the link. The drive will not be shared outside the club.</li></font></div>
+                <div className="maincontent3"><font><li>Paste the link in a google doc and upload that document as a PDF or a document, so that we can redirect ourselves to your drive from that document.</li></font></div>
             </div>
             <div className="bgslider4">
                 <Row xs={1} md={1} className="g-4">
@@ -61,6 +65,11 @@ function Media() {
                     <Link to="/Talenthunt/Mixing" className='fontjoin'>
                         <button className="button text-bt-2">
                             Mixing Wing
+                        </button>
+                    </Link>
+                    <Link to="/Talenthunt/otherInstruments" className='fontjoin'>
+                        <button className="button text-bt-2">
+                            Other Instruments
                         </button>
                     </Link>
                     

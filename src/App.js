@@ -7,6 +7,7 @@ import Lightwestern from './Lightwestern';
 import Media from './Media';
 import React from 'react';
 import Mixing from './Mixing';
+import OtherInstruments from './OtherInstruments.js';
 
 import {
   BrowserRouter as Router,
@@ -38,6 +39,7 @@ function App() {
               <Route path="/Talenthunt/Light&Western" element={<Lightwestern />}/>
               <Route path="/Talenthunt/Media" element={<Media />}/>
               <Route path="/Talenthunt/Mixing" element={<Mixing />}/>
+              <Route path="/Talenthunt/OtherInstruments" element={<OtherInstruments />}/>
               <Route path="*" element={<Navigate replace to="/" />}/>
           </Routes>
       </Router>

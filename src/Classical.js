@@ -23,7 +23,7 @@ function Classical() {
                 <div className="maincontent3"><font><li>Please note that the number of categories applied to will not increase or decrease the chance of getting in.</li></font></div>
                 <div className="maincontent3"><font><li>It will be purely based on the skills of the applicant in the respective category.</li></font></div>
                 <div className="maincontent3"><font><li>Keep in mind that a well recorded video/audio will be easier to judge.</li></font></div>
-                <div className="maincontent3"><font><li>While uploading the audition clip, please make sure that you name the file you’re uploading in the specified format to avoid confusion “RollNumber_Category” (for eg: 22XX40_Keyboard)</li></font></div>
+                <div className="maincontent3"><font><li>While uploading the audition clip, please make sure that you name the file you’re uploading in the specified format to avoid confusion “RollNumber_Category” (for eg: 23XX40_Keyboard)</li></font></div>
             </div>
             <div className="bgslider4">
                 <Row xs={1} md={2} className="g-4">
@@ -107,6 +107,11 @@ function Classical() {
                     <Link to="/Talenthunt/Mixing" className='fontjoin'>
                         <button className="button text-bt-2">
                             Mixing Wing
+                        </button>
+                    </Link>
+                    <Link to="/Talenthunt/otherInstruments" className='fontjoin'>
+                        <button className="button text-bt-2">
+                            Other Instruments
                         </button>
                     </Link>
                 </div>

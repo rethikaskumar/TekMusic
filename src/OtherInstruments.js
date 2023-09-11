@@ -8,35 +8,37 @@ import './index.css';
 import image1 from './Assets/Images/slider7.jpeg';
 
 
-function Mixing() {
+function OtherInstruments() {
   return (
     <div className="talent">
         <Navbarc />
         <BackgroundSlider images={[image1]} duration={3600}  />
         <div style={{display:"block"}}>
             <div className="bgslider2">
-                <div className="justify-content-md-center maincontent2"><font style={{color:'gold'}}>Mixing Wing</font></div>     
+                <div className="justify-content-md-center maincontent2"><font style={{color:'gold'}}>Other Instruments</font></div>     
                 <div className="justify-content-md-center maincontent2"><font style={{color:'gold'}}>General Instructions</font></div>
             </div>
             <div className="bgslider3">
                 <div className="maincontent3"><font><li>Participants who wish to apply for multiple categories are encouraged to register for each category separately.</li></font></div>
                 <div className="maincontent3"><font><li>Please note that the number of categories applied to will not increase or decrease the chance of getting in.</li></font></div>
+                <div className="maincontent3"><font><li>All years are open to apply for the auditions.</li></font></div>
                 <div className="maincontent3"><font><li>It will be purely based on the skills of the applicant in the respective category.</li></font></div>
                 <div className="maincontent3"><font><li>Keep in mind that a well recorded video/audio will be easier to judge.</li></font></div>
-                <div className="maincontent3"><font><li>Send us your portfolios! Your portfolio must include a brief summary of your past work and a concise list of skills you think you are adept at, with reference to sound mixing.</li></font></div>
+                <div className="maincontent3"><font><li>While uploading the audition clip, please make sure that you name the file you’re uploading in the specified format to avoid confusion “RollNumber_Category” (for eg: 23XX40_Keyboard)</li></font></div>
             </div>
             <div className="bgslider4">
                 <Row xs={1} md={1} className="g-4">
                     <Col>
                         <Card border="light" style={{background: 'none', borderRadius: '25px'}}>
                             <Card.Body>
-                                <Card.Title><div className="maincontent3t">Live Mixing and Sound Production</div></Card.Title>
+                            <Card.Title><div className="maincontent3t">Other Instruments</div></Card.Title>
                                 <Card.Text>
                                     <div className="maincontent3"><font>For queries, Contact: </font></div>
-                                    <div className="maincontent3"><font>Aaditya +91-9444511430</font></div>
+                                    <div className="maincontent3"><font>Sai Karthik +91-9868112971</font></div>
+                                    <div className="maincontent3"><font>Saran +91-7010581741</font></div>        
                                 </Card.Text>
-                                <a href="https://forms.gle/HA8ptFUwq2f4TgvQ6" target="__blank" className='fontjoin'>
-                                    <button className="button text-bt-2">Register for Mixing</button>
+                                <a href="https://forms.gle/7fMcCA46LwmNn8zv8" target="__blank" className='fontjoin'>
+                                    <button className="button text-bt-2">Register for Other Instruments</button>
                                 </a>
                             </Card.Body >
                         </Card>
@@ -57,14 +59,14 @@ function Mixing() {
                             Light and Western Wing
                         </button>
                     </Link>
+                    <Link to="/Talenthunt/Mixing" className='fontjoin'>
+                        <button className="button text-bt-2">
+                            Mixing Wing
+                        </button>
+                    </Link>
                     <Link to="/Talenthunt/Media" className='fontjoin'>
                         <button className="button text-bt-2">
                             Media Wing
-                        </button>
-                    </Link>
-                    <Link to="/Talenthunt/otherInstruments" className='fontjoin'>
-                        <button className="button text-bt-2">
-                            Other Instruments
                         </button>
                     </Link>
                     
@@ -74,7 +76,7 @@ function Mixing() {
         <div className="bgslider2" style={{marginTop: '1rem'}}>
             <div className="maincontent3"><font>For any other queries, contact:</font></div>
             <div className="maincontent3"><font>Tharun +91-9380205535</font></div>
-              <div className="maincontent3"><font>Sneha +91-8778569766</font></div>
+            <div className="maincontent3"><font>Sneha +91-8778569766</font></div>
         </div>
         <div className="bgslider2" style={{marginTop: '4rem'}} />
     </div>
@@ -82,4 +84,4 @@ function Mixing() {
   );
 }
 
-export default Mixing;
+export default OtherInstruments;
