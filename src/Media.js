@@ -37,7 +37,8 @@ function Media() {
                             <Card.Body>
                                 <Card.Title><div className="maincontent3t">Social Media and Content Creations</div></Card.Title>
                                 <Card.Text>
-                                    <div className="maincontent3"><font>For queries, Contact: </font></div>         
+                                    <div className="maincontent3"><font>For queries, Contact: </font></div> 
+                                    <div className="maincontent3"><font>Maanasa +91-9176918295</font></div>
                                     <div className="maincontent3"><font>Tharun +91-9380205535</font></div>
                                     <div className="maincontent3"><font>Sneha +91-8778569766</font></div></Card.Text>
                                 <a href="https://forms.gle/SeRvBY6cH1CumEZFA" target="__blank" className='fontjoin'>
