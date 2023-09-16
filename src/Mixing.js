@@ -33,6 +33,7 @@ function Mixing() {
                                 <Card.Title><div className="maincontent3t">Live Mixing and Sound Production</div></Card.Title>
                                 <Card.Text>
                                     <div className="maincontent3"><font>For queries, Contact: </font></div>
+                                    <div className="maincontent3"><font>Santhosh +91-9566587117</font></div>
                                     <div className="maincontent3"><font>Aaditya +91-9444511430</font></div>
                                 </Card.Text>
                                 <a href="https://forms.gle/HA8ptFUwq2f4TgvQ6" target="__blank" className='fontjoin'>
