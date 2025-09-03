@@ -38,7 +38,7 @@ function OtherInstruments() {
                     <div className="maincontent3">Harshavarthan +91-7010191648</div>
                   </Card.Text>
                   <a
-                    href="https://forms.gle/7fMcCA46LwmNn8zv8"
+                    href="https://forms.gle/BZu4WMkfFQSWJGwu6"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="fontjoin"

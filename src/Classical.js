@@ -41,7 +41,7 @@ function Classical() {
                     <div className="maincontent3">For queries, Contact:</div>
                     <div className="maincontent3">Rethika +91-9790196953</div>
                   </Card.Text>
-                  <a href="https://forms.gle/q7boLSBaqfGKkvu37" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/Z7BNdwjhkJwbt2dZ7" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Vocals</button>
                   </a>
                 </Card.Body>
@@ -57,7 +57,7 @@ function Classical() {
                     <div className="maincontent3">Vijhay +91-6379276849</div>
                     <div className="maincontent3">Harshavarthan +91-7010191648</div>
                   </Card.Text>
-                  <a href="https://forms.gle/QmEmwq7jFsvpCUPA9" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/udwegVQjUK2row5w6" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Percussion</button>
                   </a>
                 </Card.Body>
@@ -77,7 +77,7 @@ function Classical() {
                     <div className="maincontent3">For queries, Contact:</div>
                     <div className="maincontent3">Rethika +91-9790196953</div>
                   </Card.Text>
-                  <a href="https://forms.gle/z95pBB62kBJYun678" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/LNrBkXpdcN7gNc7JA" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Violin</button>
                   </a>
                 </Card.Body>
@@ -92,7 +92,7 @@ function Classical() {
                     <div className="maincontent3">For queries, Contact:</div>
                     <div className="maincontent3">Rethika +91-9790196953</div>
                   </Card.Text>
-                  <a href="https://forms.gle/DqV1wWzvzfP9w9Vh9" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/356CpGmhhLjbossY6" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Veena</button>
                   </a>
                 </Card.Body>
@@ -109,7 +109,7 @@ function Classical() {
               <button className="button text-bt-2">Light and Western Wing</button>
             </Link>
             <Link to="/Talenthunt/media" className='fontjoin'>
-              <button className="button text-bt-2">Media Wing</button>
+              <button className="button text-bt-2">Media and Event Management Wing</button>
             </Link>
             <Link to="/Talenthunt/mixing" className='fontjoin'>
               <button className="button text-bt-2">Mixing Wing</button>

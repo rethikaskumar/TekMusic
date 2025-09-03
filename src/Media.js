@@ -15,7 +15,7 @@ function Media() {
       <div style={{ display: "block" }}>
         <div className="bgslider2">
           <div className="justify-content-md-center maincontent2">
-            <span style={{ color: 'gold' }}>Media Wing</span>
+            <span style={{ color: 'gold' }}>Media and Event Management Wing</span>
           </div>
           <div className="justify-content-md-center maincontent2">
             <span style={{ color: 'gold' }}>General Instructions</span>
@@ -39,7 +39,7 @@ function Media() {
               <Card border="light" style={{ background: 'none', borderRadius: '25px' }}>
                 <Card.Body>
                   <Card.Title>
-                    <div className="maincontent3t">Social Media and Content Creations</div>
+                    <div className="maincontent3t">Social Media and Content Creations / Event Management</div>
                   </Card.Title>
                   <Card.Text>
                     <div className="maincontent3">For queries, Contact:</div>
@@ -47,8 +47,8 @@ function Media() {
                     <div className="maincontent3">Rethika +91-9790196953</div>
                     <div className="maincontent3">Vijhay +91-6379276849</div>
                   </Card.Text>
-                  <a href="https://forms.gle/SeRvBY6cH1CumEZFA" target="_blank" rel="noopener noreferrer" className='fontjoin'>
-                    <button className="button text-bt-2">Register for Media</button>
+                  <a href="https://forms.gle/Pi8UG6t6umTt9UPL6" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                    <button className="button text-bt-2">Register for Media and Event Management</button>
                   </a>
                 </Card.Body>
               </Card>

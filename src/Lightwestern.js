@@ -54,7 +54,7 @@ function Lightwestern() {
                     <div className="maincontent3">Prathusha +91-7397710114</div>
                     <div className="maincontent3">Ananya +91-6382063280</div>
                   </Card.Text>
-                  <a href="https://forms.gle/ZvzDGJgw8nXAfeju7" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/wMc8QFVKUEqmAZgS8" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Light Vocals</button>
                   </a>
                 </Card.Body>
@@ -71,7 +71,7 @@ function Lightwestern() {
                     <div className="maincontent3">Sudharshana +91-9988851751</div>
                     
                   </Card.Text>
-                  <a href="https://forms.gle/fFgquev5dB3DvyP78" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/vTrCGmrSaerxjdrP6" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Western Vocals</button>
                   </a>
                 </Card.Body>
@@ -91,7 +91,7 @@ function Lightwestern() {
                     <div className="maincontent3">For queries, Contact:</div>
                     <div className="maincontent3">Prathusha +91-7397710114</div>
                   </Card.Text>
-                  <a href="https://forms.gle/csCWDLS3fyXpYxDV7" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/GEQuySK5WM1TCAFk8" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Rap</button>
                   </a>
                 </Card.Body>
@@ -106,7 +106,7 @@ function Lightwestern() {
                     <div className="maincontent3">For queries, Contact:</div>
                     <div className="maincontent3">Sruthi +91-9597878579</div>
                   </Card.Text>
-                  <a href="https://forms.gle/oDsk3T13DW1f1D879" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/SrgQh2R2BYUrgp1w7" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Flute</button>
                   </a>
                 </Card.Body>
@@ -127,7 +127,7 @@ function Lightwestern() {
                     <div className="maincontent3">Vijeyasri +91-9994305501</div>
                     <div className="maincontent3">Ashere Jeswin +91-9500044291</div>
                   </Card.Text>
-                  <a href="https://forms.gle/M3WmPVhujDtdWeYVA" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/xA3gpMsQhMLG1SCb9" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Keyboard</button>
                   </a>
                 </Card.Body>
@@ -143,7 +143,7 @@ function Lightwestern() {
                     <div className="maincontent3">Rethika +91-9790196953</div>
                     <div className="maincontent3">Vijhay +91-6379276849</div>
                   </Card.Text>
-                  <a href="https://forms.gle/QMtK9SmtXAQxd4Yu8" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/yoX7j14LbFbAgi4EA" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Guitar</button>
                   </a>
                 </Card.Body>
@@ -163,7 +163,7 @@ function Lightwestern() {
                     <div className="maincontent3">For queries, Contact:</div>
                     <div className="maincontent3">Rethika +91-9790196953</div>
                   </Card.Text>
-                  <a href="https://forms.gle/z95pBB62kBJYun678" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/LNrBkXpdcN7gNc7JA" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Violin</button>
                   </a>
                 </Card.Body>
@@ -179,7 +179,7 @@ function Lightwestern() {
                     <div className="maincontent3">Vijhay +91-6379276849</div>
                     <div className="maincontent3">Harshavarthan +91-7010191648</div>
                   </Card.Text>
-                  <a href="https://forms.gle/cTQhCd4mwUZfw98p8" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/8gC2MYBKgibrfgxD7" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Drums</button>
                   </a>
                 </Card.Body>
@@ -199,7 +199,7 @@ function Lightwestern() {
                     <div className="maincontent3">For queries, Contact:</div>
                     <div className="maincontent3">Vijhay +91-6379276849</div>
                   </Card.Text>
-                  <a href="https://forms.gle/pu9CWVEdwX9zBNrA9" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/eirtcV9ijRf6PuqF8" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Beatboxing</button>
                   </a>
                 </Card.Body>
@@ -216,7 +216,7 @@ function Lightwestern() {
               <button className="button text-bt-2">Classical Wing</button>
             </Link>
             <Link to="/Talenthunt/media" className='fontjoin'>
-              <button className="button text-bt-2">Media Wing</button>
+              <button className="button text-bt-2">Media and Event Management Wing</button>
             </Link>
             <Link to="/Talenthunt/mixing" className='fontjoin'>
               <button className="button text-bt-2">Mixing Wing</button>

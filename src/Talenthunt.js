@@ -79,7 +79,7 @@ class Talenthunt extends React.Component {
               <button className="button text-bt-2">Light and Western Wing</button>
             </Link>
             <Link to="/Talenthunt/media" className="fontjoin">
-              <button className="button text-bt-2">Media Wing</button>
+              <button className="button text-bt-2">Media and Event Management Wing</button>
             </Link>
             <Link to="/Talenthunt/mixing" className="fontjoin">
               <button className="button text-bt-2">Mixing Wing</button>

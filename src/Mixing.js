@@ -40,7 +40,7 @@ function Mixing() {
                     <div className="maincontent3"><font>For queries, Contact: </font></div>
                     <div className="maincontent3"><font>Joses +91-9360373399</font></div>
                   </Card.Text>
-                  <a href="https://forms.gle/HA8ptFUwq2f4TgvQ6" target="_blank" rel="noopener noreferrer" className='fontjoin'>
+                  <a href="https://forms.gle/KnC2Z5CeviHwFxfb8" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Mixing</button>
                   </a>
                 </Card.Body>
@@ -64,7 +64,7 @@ function Mixing() {
             </Link>
             <Link to="/Talenthunt/media" className='fontjoin'>
               <button className="button text-bt-2">
-                Media Wing
+                Media and Event Management Wing
               </button>
             </Link>
             <Link to="/Talenthunt/other-instruments" className='fontjoin'>

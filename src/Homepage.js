@@ -5,12 +5,11 @@ import Slider from './Component/Slider.js';
 import Footer from './Component/Footer.js';
 import React from 'react';
 import { css } from "@emotion/react";
+
 import ScaleLoader from "react-spinners/ScaleLoader";
-import image1 from './Assets/bgcolors/image1.jpg';
-import BackgroundSlider from './Component/BackgroundSlider';
-import image2 from './Assets/Images/slider2.jpg';
-import image3 from './Assets/Images/slider3.jpg';
-import image4 from './Assets/Images/slider7.jpeg';
+
+
+
 
 // Loader CSS override
 const override = css`
@@ -28,9 +27,14 @@ const override = css`
 function Loader({ loading }) {
   return (
     <div className="sweet-loading">
-      <BackgroundSlider images={[image4]} duration={7200} transition={1} blur={0}/>
-      <BackgroundSlider images={[image1]} duration={4} transition={1} blur={5}/>
-      <BackgroundSlider images={[image2, image3]} duration={2} transition={1} blur={0}/>
+{/* <BackgroundSlider 
+  images={[image1, image2, image3, image4, image5, image6, image7, image8]} 
+  duration={7}     // how long each image stays (in seconds)
+  transition={1}   // fade transition time (in seconds)
+  blur={0}         // background blur (adjust as you like)
+/> */}
+
+
       <ScaleLoader 
         color={'white'} 
         loading={loading} 
