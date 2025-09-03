@@ -28,7 +28,7 @@ function Loader({ loading }) {
       <ScaleLoader
         color={'white'}
         loading={loading}
-        cssOverride={{ display: "flex", margin: "0 auto" }}
+        cssOverride={override}
         height={50}
         width={5}
         radius={4}
