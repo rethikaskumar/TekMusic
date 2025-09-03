@@ -10,7 +10,6 @@ import image4 from '../Assets/newImages/s4.JPG';
 import image5 from '../Assets/newImages/s5.JPG';
 import image6 from '../Assets/newImages/s6.JPG';
 import image7 from '../Assets/newImages/s7.JPG';
-import image8 from '../Assets/newImages/s8.JPG';
 
 
 export default function Slider() {
@@ -18,7 +17,7 @@ export default function Slider() {
     <div style={{ display: "block" }}>
       {/* Pass all images into one BackgroundSlider */}
       <BackgroundSlider 
-        images={[image1, image2, image3, image4, image5, image6, image7, image8]} 
+        images={[image1, image2, image3, image4, image5, image6, image7]} 
         duration={3}      // each image shows for 7 seconds
         transition={1}    // fade transition time
         blur={0}          // optional blur

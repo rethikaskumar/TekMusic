@@ -162,6 +162,7 @@ function Lightwestern() {
                   <Card.Text>
                     <div className="maincontent3">For queries, Contact:</div>
                     <div className="maincontent3">Rethika +91-9790196953</div>
+                    <div className="maincontent3"></div>
                   </Card.Text>
                   <a href="https://forms.gle/LNrBkXpdcN7gNc7JA" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Violin</button>
