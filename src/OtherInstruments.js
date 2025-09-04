@@ -77,7 +77,7 @@ function OtherInstruments() {
           </div>
         </div>
       </div>
-      <div className="bgslider2" style={{ marginTop: '1rem' }}>
+      <div className="bgslider2" style={{ marginTop: '0rem' }}>
         <div className="maincontent3">For any other queries, contact:</div>
         <div className="maincontent3">Rethika +91-9790196953</div>
         <div className="maincontent3">Vijhay +91-6379276849</div>

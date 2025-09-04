@@ -75,7 +75,7 @@ function Mixing() {
           </div>
         </div>
       </div>
-      <div className="bgslider2" style={{ marginTop: '1rem' }}>
+      <div className="bgslider2" style={{ marginTop: '0rem' }}>
         <div className="maincontent3"><font>For any other queries, contact:</font></div>
         <div className="maincontent3">Rethika +91-9790196953</div>
         <div className="maincontent3">Vijhay +91-6379276849</div>

@@ -8,9 +8,6 @@ import { css } from "@emotion/react";
 
 import ScaleLoader from "react-spinners/ScaleLoader";
 
-
-
-
 // Loader CSS override
 const override = css`
   display: flex;

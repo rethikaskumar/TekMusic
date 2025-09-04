@@ -12,6 +12,12 @@ body {
   height: 100%;
   overflow: auto;
 }
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;   /* all cards stretch to same height */
+}
+
 .bgslider{
   margin: auto;
   width: 500px;
@@ -204,6 +210,47 @@ body {
   letter-spacing: 0.05rem;
   color: white;
 }
+.slider-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 30, 80, 0.4); /* bluish tint */
+  z-index: 1;  /* make sure it sits above slider images but below text */
+}
+.text-glass {
+  background: rgba(255, 255, 255, 0.2); /* light overlay */
+  backdrop-filter: blur(6px);           /* blur background behind text */
+  -webkit-backdrop-filter: blur(6px);   /* Safari support */
+  color: #fff;                          /* white text */
+  font-weight: 700;
+  font-size: 28px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  display: inline-block;
+}
+.text-box {
+  background: rgba(0, 0, 0, 0.4);  /* semi-transparent black */
+  color: #fff;                     /* white text */
+  font-weight: 700;                 /* bold */
+  font-size: 28px;                  /* slightly smaller */
+  padding: 12px 20px;
+  border-radius: 10px;
+
+  display: inline-block;
+}
+
+
+.text-bg {
+font-size: 42px;               /* adjust size */
+ font-weight: 1000;             /* very bold */
+  color: rgb(11, 2, 2);     /* black with 70% opacity */
+  letter-spacing: 1px;           /* little spacing for clarity */
+  text-shadow: 1px 1px 3px rgba(255,255,255,0.3); /* optional glow */
+}
+
+
 
 .text-bt-2{
   padding-left: 2rem;

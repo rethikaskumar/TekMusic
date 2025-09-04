@@ -35,8 +35,9 @@ function Classical() {
           <Row xs={1} md={2} className="g-4">
             <Col>
               <Card border="light" style={{ background: 'none', borderRadius: '25px' }}>
-                <Card.Body>
-                  <Card.Title><div className="maincontent3t">Vocals</div></Card.Title>
+                <Card.Body style={{height:"250px"}}
+                >
+                  <Card.Title><div className="maincontent3t"><div> </div><div/>Vocals</div></Card.Title>
                   <Card.Text>
                     <div className="maincontent3">For queries, Contact:</div>
                     <div className="maincontent3">Rethika +91-9790196953</div>
@@ -122,7 +123,7 @@ function Classical() {
       </div>
 
       {/* Contact footer */}
-      <div className="bgslider2" style={{ marginTop: '1rem' }}>
+      <div className="bgslider2" style={{ marginTop: '0rem' }}>
         <div className="maincontent3t">For any other queries, contact:</div>
         <div className="maincontent3">Rethika +91-9790196953</div>
         <div className="maincontent3">Vijhay +91-6379276849</div>

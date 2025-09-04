@@ -22,14 +22,14 @@ export default function Slider() {
         transition={1}    // fade transition time
         blur={0}          // optional blur
       />
-
       <div className="bgslider">
-        <div className="justify-content-md-center maincontent">
-          <font>Official Music Club of</font>
-        </div>     
-        <div className="justify-content-md-center maincontent">
-          <font>PSG College of Technology</font>
-        </div>     
+        <div className="justify-content-md-center maincontent text-box">
+  Official Music Club of
+</div>     
+<div className="justify-content-md-center maincontent text-box">
+  PSG College of Technology
+</div>
+    
         <Link to="/Talenthunt" className="fontjoin">
           <button className="button text-bt-2">
             JOIN NOW

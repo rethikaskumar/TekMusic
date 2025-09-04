@@ -63,7 +63,7 @@ function Lightwestern() {
 
             <Col>
               <Card border="light" style={{ background: 'none', borderRadius: '25px' }}>
-                <Card.Body>
+                <Card.Body style={{height:"280px"}}>
                   <Card.Title><div className="maincontent3t">Western Vocals</div></Card.Title>
                   <Card.Text>
                     <div className="maincontent3">For queries, Contact:</div>
@@ -157,7 +157,7 @@ function Lightwestern() {
           <Row xs={1} md={2} className="g-4">
             <Col>
               <Card border="light" style={{ background: 'none', borderRadius: '25px' }}>
-                <Card.Body>
+                <Card.Body style={{height:"250px"}}>
                   <Card.Title><div className="maincontent3t">Violin</div></Card.Title>
                   <Card.Text>
                     <div className="maincontent3">For queries, Contact:</div>

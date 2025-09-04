@@ -90,7 +90,7 @@ class Talenthunt extends React.Component {
           </div>
         </div>
 
-        <div className="bgslider2" style={{ marginTop: '1rem' }}>
+        <div className="bgslider2" style={{ marginTop: '0rem' }}>
           <div className="maincontent3"><span>For any other queries, contact:</span></div>
           <div className="maincontent3"><span>Rethika +91-9790196953</span></div>
           <div className="maincontent3"><span>Vijhay +91-6379276849</span></div>
