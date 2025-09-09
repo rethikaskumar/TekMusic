@@ -76,7 +76,7 @@ function Classical() {
                   <Card.Title><div className="maincontent3t">Violin</div></Card.Title>
                   <Card.Text>
                     <div className="maincontent3">For queries, Contact:</div>
-                    <div className="maincontent3">Rethika +91-9790196953</div>
+                    <div className="maincontent3">Harini +91-7904978818</div>
                   </Card.Text>
                   <a href="https://forms.gle/LNrBkXpdcN7gNc7JA" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Violin</button>

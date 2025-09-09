@@ -39,6 +39,7 @@ function Mixing() {
                   <Card.Text>
                     <div className="maincontent3"><font>For queries, Contact: </font></div>
                     <div className="maincontent3"><font>Joses +91-9360373399</font></div>
+                    <div className="maincontent3"><font>Neelesh +91-8148401083</font></div>
                   </Card.Text>
                   <a href="https://forms.gle/KnC2Z5CeviHwFxfb8" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Mixing</button>

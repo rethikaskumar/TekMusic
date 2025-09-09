@@ -50,8 +50,7 @@ function Lightwestern() {
                   <Card.Title><div className="maincontent3t">Light Vocals</div></Card.Title>
                   <Card.Text>
                     <div className="maincontent3">For queries, Contact:</div>
-                    <div className="maincontent3">Rethika +91-9790196953</div>
-                    <div className="maincontent3">Prathusha +91-7397710114</div>
+                    <div className="maincontent3">Sruthi +91-9597878579</div>
                     <div className="maincontent3">Ananya +91-6382063280</div>
                   </Card.Text>
                   <a href="https://forms.gle/wMc8QFVKUEqmAZgS8" target="_blank" rel="noopener noreferrer" className='fontjoin'>
@@ -67,7 +66,7 @@ function Lightwestern() {
                   <Card.Title><div className="maincontent3t">Western Vocals</div></Card.Title>
                   <Card.Text>
                     <div className="maincontent3">For queries, Contact:</div>
-                    <div className="maincontent3">Kadeeja +91-7736472231</div>
+                    <div className="maincontent3">Prathusha +91-7397710114</div>
                     <div className="maincontent3">Sudharshana +91-9988851751</div>
                     
                   </Card.Text>
@@ -161,7 +160,7 @@ function Lightwestern() {
                   <Card.Title><div className="maincontent3t">Violin</div></Card.Title>
                   <Card.Text>
                     <div className="maincontent3">For queries, Contact:</div>
-                    <div className="maincontent3">Rethika +91-9790196953</div>
+                    <div className="maincontent3">Harini +91-7904978818</div>
                     <div className="maincontent3"></div>
                   </Card.Text>
                   <a href="https://forms.gle/LNrBkXpdcN7gNc7JA" target="_blank" rel="noopener noreferrer" className='fontjoin'>
