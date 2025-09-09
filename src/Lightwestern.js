@@ -4,7 +4,9 @@ import { Card, Row, Col } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import Navbarc from './Component/Navbarc.js';
 import BackgroundSlider from './Component/BackgroundSlider';
-import image1 from './Assets/Images/slider7.jpeg';
+
+// Use image from public folder
+const image1 = process.env.PUBLIC_URL + "/images/slider7.jpeg";
 
 function Lightwestern() {
   return (
@@ -16,10 +18,10 @@ function Lightwestern() {
         {/* General Instructions */}
         <div className="bgslider2">
           <div className="justify-content-md-center maincontent2">
-            <font style={{ color: 'gold' }}>Light and Western Wing</font>
+            <span style={{ color: 'gold' }}>Light and Western Wing</span>
           </div>
           <div className="justify-content-md-center maincontent2">
-            <font style={{ color: 'gold' }}>General Instructions</font>
+            <span style={{ color: 'gold' }}>General Instructions</span>
           </div>
         </div>
 
@@ -37,7 +39,7 @@ function Lightwestern() {
             <li>Keep in mind that a well recorded video/audio will be easier to judge.</li>
           </div>
           <div className="maincontent3">
-            <li>While uploading the audition clip, please make sure that you name the file you’re uploading in the specified format to avoid confusion “RollNumber_Category” (for eg: 23XX40_Keyboard)</li>
+            <li>While uploading the audition clip, please make sure that you name the file in the format: “RollNumber_Category” (e.g., 23XX40_Keyboard)</li>
           </div>
         </div>
 
@@ -62,13 +64,12 @@ function Lightwestern() {
 
             <Col>
               <Card border="light" style={{ background: 'none', borderRadius: '25px' }}>
-                <Card.Body style={{height:"280px"}}>
+                <Card.Body style={{ height: "280px" }}>
                   <Card.Title><div className="maincontent3t">Western Vocals</div></Card.Title>
                   <Card.Text>
                     <div className="maincontent3">For queries, Contact:</div>
                     <div className="maincontent3">Prathusha +91-7397710114</div>
                     <div className="maincontent3">Sudharshana +91-9988851751</div>
-                    
                   </Card.Text>
                   <a href="https://forms.gle/vTrCGmrSaerxjdrP6" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Western Vocals</button>
@@ -156,12 +157,11 @@ function Lightwestern() {
           <Row xs={1} md={2} className="g-4">
             <Col>
               <Card border="light" style={{ background: 'none', borderRadius: '25px' }}>
-                <Card.Body style={{height:"250px"}}>
+                <Card.Body style={{ height: "250px" }}>
                   <Card.Title><div className="maincontent3t">Violin</div></Card.Title>
                   <Card.Text>
                     <div className="maincontent3">For queries, Contact:</div>
                     <div className="maincontent3">Harini +91-7904978818</div>
-                    <div className="maincontent3"></div>
                   </Card.Text>
                   <a href="https://forms.gle/LNrBkXpdcN7gNc7JA" target="_blank" rel="noopener noreferrer" className='fontjoin'>
                     <button className="button text-bt-2">Register for Violin</button>
@@ -211,7 +211,7 @@ function Lightwestern() {
         {/* Other Categories */}
         <div style={{ display: "block" }}>
           <div className="bgslider2" style={{ marginTop: '1rem' }}>
-            <div className="justify-content-md-center maincontent2"><font>Other categories</font></div>
+            <div className="justify-content-md-center maincontent2">Other categories</div>
             <Link to="/Talenthunt/classical" className='fontjoin'>
               <button className="button text-bt-2">Classical Wing</button>
             </Link>

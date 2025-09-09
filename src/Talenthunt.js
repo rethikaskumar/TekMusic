@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
 import Navbarc from './Component/Navbarc.js';
 import BackgroundSlider from './Component/BackgroundSlider';
-import image1 from './Assets/Images/slider7.jpeg';
 import React from 'react';
 import { css } from "@emotion/react";
 import { ScaleLoader } from "react-spinners";
@@ -24,7 +23,12 @@ const override = css`
 function Loader({ loading }) {
   return (
     <div className="sweet-loading">
-      <BackgroundSlider images={[image1]} duration={4} transition={1} blur={5}/>
+      <BackgroundSlider 
+        images={[process.env.PUBLIC_URL + "/assets/images/slider7.jpeg"]} 
+        duration={4} 
+        transition={1} 
+        blur={5}
+      />
       <ScaleLoader
         color={'white'}
         loading={loading}
@@ -57,7 +61,12 @@ class Talenthunt extends React.Component {
     ) : (
       <div className="talent">
         <Navbarc />
-        <BackgroundSlider images={[image1]} duration={3600} transition={1} blur={8}/>
+        <BackgroundSlider 
+          images={[process.env.PUBLIC_URL + "/images/slider7.jpeg"]} 
+          duration={3600} 
+          transition={1} 
+          blur={8}
+        />
         
         <div style={{ display: "block" }}>
           <div className="bgslider2t">

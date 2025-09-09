@@ -4,13 +4,15 @@ import { Card, Row, Col } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import Navbarc from './Component/Navbarc.js';
 import BackgroundSlider from './Component/BackgroundSlider';
-import image1 from './Assets/Images/slider7.jpeg';
 
 function Classical() {
   return (
     <div className="talent">
       <Navbarc />
-      <BackgroundSlider images={[image1]} duration={3600} />
+      <BackgroundSlider 
+        images={[process.env.PUBLIC_URL + "/images/slider7.jpeg"]} 
+        duration={3600} 
+      />
       
       <div style={{ display: "block" }}>
         <div className="bgslider2">
@@ -35,9 +37,10 @@ function Classical() {
           <Row xs={1} md={2} className="g-4">
             <Col>
               <Card border="light" style={{ background: 'none', borderRadius: '25px' }}>
-                <Card.Body style={{height:"250px"}}
-                >
-                  <Card.Title><div className="maincontent3t"><div> </div><div/>Vocals</div></Card.Title>
+                <Card.Body style={{height:"250px"}}>
+                  <Card.Title>
+                    <div className="maincontent3t">Vocals</div>
+                  </Card.Title>
                   <Card.Text>
                     <div className="maincontent3">For queries, Contact:</div>
                     <div className="maincontent3">Rethika +91-9790196953</div>

@@ -4,14 +4,16 @@ import { Card, Row, Col } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import Navbarc from './Component/Navbarc.js';
 import BackgroundSlider from './Component/BackgroundSlider';
-import './index.css';
-import image1 from './Assets/Images/slider7.jpeg';
+
+// Use image from public folder instead of import
+const image1 = process.env.PUBLIC_URL + "/images/slider7.jpeg";
 
 function Media() {
   return (
     <div className="talent">
       <Navbarc />
       <BackgroundSlider images={[image1]} duration={3600} />
+      
       <div style={{ display: "block" }}>
         <div className="bgslider2">
           <div className="justify-content-md-center maincontent2">
@@ -21,6 +23,7 @@ function Media() {
             <span style={{ color: 'gold' }}>General Instructions</span>
           </div>
         </div>
+
         <div className="bgslider3">
           <div className="maincontent3"><li>Participants who wish to apply for multiple categories are encouraged to register for each category separately.</li></div>
           <div className="maincontent3"><li>Please note that the number of categories applied to will not increase or decrease the chance of getting in.</li></div>
@@ -33,6 +36,7 @@ function Media() {
           <div className="maincontent3"><li>If you wish to share more files, upload them to a google drive and share the drive with editor access to whoever has the link. The drive will not be shared outside the club.</li></div>
           <div className="maincontent3"><li>Paste the link in a google doc and upload that document as a PDF or a document, so that we can redirect ourselves to your drive from that document.</li></div>
         </div>
+
         <div className="bgslider4">
           <Row xs={1} md={1} className="g-4">
             <Col>
@@ -53,6 +57,7 @@ function Media() {
             </Col>
           </Row>
         </div>
+
         <div style={{ display: "block" }}>
           <div className="bgslider2" style={{ marginTop: '1rem' }}>
             <div className="justify-content-md-center maincontent2">Other categories</div>
@@ -72,11 +77,13 @@ function Media() {
           </div>
         </div>
       </div>
+
       <div className="bgslider2" style={{ marginTop: '0rem' }}>
-      <div className="maincontent3"><font>For any other queries, contact:</font></div>
+        <div className="maincontent3"><font>For any other queries, contact:</font></div>
         <div className="maincontent3">Rethika +91-9790196953</div>
         <div className="maincontent3">Vijhay +91-6379276849</div>
       </div>
+
       <div className="bgslider2" style={{ marginTop: '4rem' }} />
     </div>
   );
