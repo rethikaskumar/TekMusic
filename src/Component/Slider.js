@@ -2,33 +2,31 @@ import BackgroundSlider from './BackgroundSlider';
 import { Link } from "react-router-dom";
 import '../index.css';
 
-// Import all 8 images
-import image1 from '../Assets/bgcolors/image1.jpg';
-import image2 from '../Assets/newImages/s2.JPG';
-import image3 from '../Assets/newImages/s3.JPG';
-import image4 from '../Assets/newImages/s4.JPG';
-import image5 from '../Assets/newImages/s5.JPG';
-import image6 from '../Assets/newImages/s6.JPG';
-import image7 from '../Assets/newImages/s7.JPG';
-
-
 export default function Slider() {
   return (
     <div style={{ display: "block" }}>
-      {/* Pass all images into one BackgroundSlider */}
       <BackgroundSlider 
-        images={[image1, image2, image3, image4, image5, image6, image7]} 
-        duration={3}      // each image shows for 7 seconds
-        transition={1}    // fade transition time
-        blur={0}          // optional blur
+        images={[
+          process.env.PUBLIC_URL + "/images/image1.jpg",
+          process.env.PUBLIC_URL + "/images/s2.jpg",
+          process.env.PUBLIC_URL + "/images/s3.jpg",
+          process.env.PUBLIC_URL + "/images/s4.jpg",
+          process.env.PUBLIC_URL + "/images/s5.jpg",
+          process.env.PUBLIC_URL + "/images/s6.jpg",
+          process.env.PUBLIC_URL + "/images/s7.jpg"
+        ]} 
+        duration={3}      // each image shows for 3 seconds
+        transition={1}    // fade transition
+        blur={0}
       />
+      
       <div className="bgslider">
         <div className="justify-content-md-center maincontent text-box">
-  Official Music Club of
-</div>     
-<div className="justify-content-md-center maincontent text-box">
-  PSG College of Technology
-</div>
+          Official Music Club of
+        </div>     
+        <div className="justify-content-md-center maincontent text-box">
+          PSG College of Technology
+        </div>
     
         <Link to="/Talenthunt" className="fontjoin">
           <button className="button text-bt-2">
