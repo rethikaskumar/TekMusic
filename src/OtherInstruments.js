@@ -18,26 +18,20 @@ function OtherInstruments() {
       
       <div style={{ display: "block" }}>
         <div className="bgslider2">
-          <div className="justify-content-md-center maincontent2" style={{ color: 'gold' }}>Other Instruments</div>
-          <div className="justify-content-md-center maincontent2" style={{ color: 'gold' }}>General Instructions</div>
+          <div className="justify-content-md-center maincontent2">
+            <span style={{ color: 'gold' }}>Other Instruments</span>
+          </div>
+          <div className="justify-content-md-center maincontent2">
+            <span style={{ color: 'gold' }}>General Instructions</span>
+          </div>
         </div>
 
         <div className="bgslider3">
-          <div className="maincontent3">
-            <li>Participants who wish to apply for multiple categories are encouraged to register for each category separately.</li>
-          </div>
-          <div className="maincontent3">
-            <li>Please note that the number of categories applied to will not increase or decrease the chance of getting in.</li>
-          </div>
-          <div className="maincontent3">
-            <li>It will be purely based on the skills of the applicant in the respective category.</li>
-          </div>
-          <div className="maincontent3">
-            <li>Keep in mind that a well recorded video/audio will be easier to judge.</li>
-          </div>
-          <div className="maincontent3">
-            <li>While uploading the audition clip, please make sure that you name the file in the format: “RollNumber_Category” (e.g., 23XX40_Keyboard)</li>
-          </div>
+          <div className="maincontent3"><li>Participants who wish to apply for multiple categories are encouraged to register for each category separately.</li></div>
+          <div className="maincontent3"><li>Please note that the number of categories applied to will not increase or decrease the chance of getting in.</li></div>
+          <div className="maincontent3"><li>It will be purely based on the skills of the applicant in the respective category.</li></div>
+          <div className="maincontent3"><li>Keep in mind that a well recorded video/audio will be easier to judge.</li></div>
+          <div className="maincontent3"><li>While uploading the audition clip, please make sure that you name the file in the format: “RollNumber_Category” (e.g., 23XX40_Keyboard)</li></div>
         </div>
 
         <div className="bgslider4">
