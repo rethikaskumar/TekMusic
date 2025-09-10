@@ -7,13 +7,13 @@ export default function Slider() {
     <div style={{ display: "block" }}>
       <BackgroundSlider 
         images={[
-          process.env.PUBLIC_URL + "/images/image1.jpg",
-          process.env.PUBLIC_URL + "/images/s2.jpg",
-          process.env.PUBLIC_URL + "/images/s3.jpg",
-          process.env.PUBLIC_URL + "/images/s4.jpg",
-          process.env.PUBLIC_URL + "/images/s5.jpg",
-          process.env.PUBLIC_URL + "/images/s6.jpg",
-          process.env.PUBLIC_URL + "/images/s7.jpg"
+          process.env.PUBLIC_URL + "/images/image1.webp",
+          process.env.PUBLIC_URL + "/images/s2.webp",
+          process.env.PUBLIC_URL + "/images/s3.webp",
+          process.env.PUBLIC_URL + "/images/s4.webp",
+          process.env.PUBLIC_URL + "/images/s5.webp",
+          process.env.PUBLIC_URL + "/images/s6.webp",
+          process.env.PUBLIC_URL + "/images/s7.webp"
         ]} 
         duration={3}      // each image shows for 3 seconds
         transition={1}    // fade transition
